@@ -1,0 +1,24 @@
+@import '../common/color';
+@import '../sass/Header';
+@import '../sass//MovieListing';
+@import '../sass/MovieCard';
+@import '../sass/Footer';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: $primary_color;
+    color: $font-primary;
+}
+
+.container {
+    margin: 0px 40px;
+}

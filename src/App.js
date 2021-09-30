@@ -6,7 +6,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
 import MovieDetail from './components/MovieDetail/MovieDetail';
-import './App.scss';
+import './sass/App.css';
 function App() {
   return (
     <div className="App">
